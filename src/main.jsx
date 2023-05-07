@@ -9,15 +9,15 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HelmetProvider>
+    {/* <HelmetProvider> */}
       <AuthProvider>
-        <Helmet>
+        {/* <Helmet>
           <title>Dragon News</title>
           <link rel="icon" type="image/svg+xml" href="/public/icon.jpg" />
-        </Helmet>
+        </Helmet> */}
           <RouterProvider router={router}></RouterProvider>
        
       </AuthProvider>
-    </HelmetProvider>
+    {/* </HelmetProvider> */}
   </React.StrictMode>,
 )

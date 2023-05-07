@@ -1,9 +1,12 @@
 import React from 'react';
+import useTitle from '../../../hooks/useTitle';
 
 const Home = () => {
+    useTitle('Home')
     return (
         <div>
-            <h2>This is home</h2>
+            <h2>Dragon News Home</h2>
+           
         </div>
     );
 };
